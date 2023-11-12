@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		796B8B452B01192A00554962 /* SwiftUI_Basic_YT_PlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796B8B442B01192A00554962 /* SwiftUI_Basic_YT_PlayerApp.swift */; };
+		796B8B472B01192A00554962 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796B8B462B01192A00554962 /* ContentView.swift */; };
+		796B8B492B01192D00554962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796B8B482B01192D00554962 /* Assets.xcassets */; };
+		796B8B4C2B01192D00554962 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 796B8B4B2B01192D00554962 /* Preview Assets.xcassets */; };
+		796B8B562B01192D00554962 /* SwiftUI_Basic_YT_PlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796B8B552B01192D00554962 /* SwiftUI_Basic_YT_PlayerTests.swift */; };
+		796B8B602B01192D00554962 /* SwiftUI_Basic_YT_PlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796B8B5F2B01192D00554962 /* SwiftUI_Basic_YT_PlayerUITests.swift */; };
+		796B8B622B01192D00554962 /* SwiftUI_Basic_YT_PlayerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796B8B612B01192D00554962 /* SwiftUI_Basic_YT_PlayerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		796B8B522B01192D00554962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 796B8B392B01192A00554962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 796B8B402B01192A00554962;
+			remoteInfo = "SwiftUI Basic YT Player";
+		};
+		796B8B5C2B01192D00554962 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 796B8B392B01192A00554962 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 796B8B402B01192A00554962;
+			remoteInfo = "SwiftUI Basic YT Player";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		796B8B412B01192A00554962 /* SwiftUI Basic YT Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Basic YT Player.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		796B8B442B01192A00554962 /* SwiftUI_Basic_YT_PlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Basic_YT_PlayerApp.swift; sourceTree = "<group>"; };
+		796B8B462B01192A00554962 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		796B8B482B01192D00554962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		796B8B4B2B01192D00554962 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		796B8B512B01192D00554962 /* SwiftUI Basic YT PlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI Basic YT PlayerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		796B8B552B01192D00554962 /* SwiftUI_Basic_YT_PlayerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Basic_YT_PlayerTests.swift; sourceTree = "<group>"; };
+		796B8B5B2B01192D00554962 /* SwiftUI Basic YT PlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI Basic YT PlayerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		796B8B5F2B01192D00554962 /* SwiftUI_Basic_YT_PlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Basic_YT_PlayerUITests.swift; sourceTree = "<group>"; };
+		796B8B612B01192D00554962 /* SwiftUI_Basic_YT_PlayerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Basic_YT_PlayerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		796B8B3E2B01192A00554962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796B8B4E2B01192D00554962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796B8B582B01192D00554962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		796B8B382B01192A00554962 = {
+			isa = PBXGroup;
+			children = (
+				796B8B432B01192A00554962 /* SwiftUI Basic YT Player */,
+				796B8B542B01192D00554962 /* SwiftUI Basic YT PlayerTests */,
+				796B8B5E2B01192D00554962 /* SwiftUI Basic YT PlayerUITests */,
+				796B8B422B01192A00554962 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		796B8B422B01192A00554962 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				796B8B412B01192A00554962 /* SwiftUI Basic YT Player.app */,
+				796B8B512B01192D00554962 /* SwiftUI Basic YT PlayerTests.xctest */,
+				796B8B5B2B01192D00554962 /* SwiftUI Basic YT PlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		796B8B432B01192A00554962 /* SwiftUI Basic YT Player */ = {
+			isa = PBXGroup;
+			children = (
+				796B8B442B01192A00554962 /* SwiftUI_Basic_YT_PlayerApp.swift */,
+				796B8B462B01192A00554962 /* ContentView.swift */,
+				796B8B482B01192D00554962 /* Assets.xcassets */,
+				796B8B4A2B01192D00554962 /* Preview Content */,
+			);
+			path = "SwiftUI Basic YT Player";
+			sourceTree = "<group>";
+		};
+		796B8B4A2B01192D00554962 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				796B8B4B2B01192D00554962 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		796B8B542B01192D00554962 /* SwiftUI Basic YT PlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				796B8B552B01192D00554962 /* SwiftUI_Basic_YT_PlayerTests.swift */,
+			);
+			path = "SwiftUI Basic YT PlayerTests";
+			sourceTree = "<group>";
+		};
+		796B8B5E2B01192D00554962 /* SwiftUI Basic YT PlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				796B8B5F2B01192D00554962 /* SwiftUI_Basic_YT_PlayerUITests.swift */,
+				796B8B612B01192D00554962 /* SwiftUI_Basic_YT_PlayerUITestsLaunchTests.swift */,
+			);
+			path = "SwiftUI Basic YT PlayerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		796B8B402B01192A00554962 /* SwiftUI Basic YT Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 796B8B652B01192D00554962 /* Build configuration list for PBXNativeTarget "SwiftUI Basic YT Player" */;
+			buildPhases = (
+				796B8B3D2B01192A00554962 /* Sources */,
+				796B8B3E2B01192A00554962 /* Frameworks */,
+				796B8B3F2B01192A00554962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SwiftUI Basic YT Player";
+			productName = "SwiftUI Basic YT Player";
+			productReference = 796B8B412B01192A00554962 /* SwiftUI Basic YT Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+		796B8B502B01192D00554962 /* SwiftUI Basic YT PlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 796B8B682B01192D00554962 /* Build configuration list for PBXNativeTarget "SwiftUI Basic YT PlayerTests" */;
+			buildPhases = (
+				796B8B4D2B01192D00554962 /* Sources */,
+				796B8B4E2B01192D00554962 /* Frameworks */,
+				796B8B4F2B01192D00554962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				796B8B532B01192D00554962 /* PBXTargetDependency */,
+			);
+			name = "SwiftUI Basic YT PlayerTests";
+			productName = "SwiftUI Basic YT PlayerTests";
+			productReference = 796B8B512B01192D00554962 /* SwiftUI Basic YT PlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		796B8B5A2B01192D00554962 /* SwiftUI Basic YT PlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 796B8B6B2B01192D00554962 /* Build configuration list for PBXNativeTarget "SwiftUI Basic YT PlayerUITests" */;
+			buildPhases = (
+				796B8B572B01192D00554962 /* Sources */,
+				796B8B582B01192D00554962 /* Frameworks */,
+				796B8B592B01192D00554962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				796B8B5D2B01192D00554962 /* PBXTargetDependency */,
+			);
+			name = "SwiftUI Basic YT PlayerUITests";
+			productName = "SwiftUI Basic YT PlayerUITests";
+			productReference = 796B8B5B2B01192D00554962 /* SwiftUI Basic YT PlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		796B8B392B01192A00554962 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					796B8B402B01192A00554962 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					796B8B502B01192D00554962 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 796B8B402B01192A00554962;
+					};
+					796B8B5A2B01192D00554962 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 796B8B402B01192A00554962;
+					};
+				};
+			};
+			buildConfigurationList = 796B8B3C2B01192A00554962 /* Build configuration list for PBXProject "SwiftUI Basic YT Player" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 796B8B382B01192A00554962;
+			productRefGroup = 796B8B422B01192A00554962 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				796B8B402B01192A00554962 /* SwiftUI Basic YT Player */,
+				796B8B502B01192D00554962 /* SwiftUI Basic YT PlayerTests */,
+				796B8B5A2B01192D00554962 /* SwiftUI Basic YT PlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		796B8B3F2B01192A00554962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796B8B4C2B01192D00554962 /* Preview Assets.xcassets in Resources */,
+				796B8B492B01192D00554962 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796B8B4F2B01192D00554962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796B8B592B01192D00554962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		796B8B3D2B01192A00554962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796B8B472B01192A00554962 /* ContentView.swift in Sources */,
+				796B8B452B01192A00554962 /* SwiftUI_Basic_YT_PlayerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796B8B4D2B01192D00554962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796B8B562B01192D00554962 /* SwiftUI_Basic_YT_PlayerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		796B8B572B01192D00554962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796B8B602B01192D00554962 /* SwiftUI_Basic_YT_PlayerUITests.swift in Sources */,
+				796B8B622B01192D00554962 /* SwiftUI_Basic_YT_PlayerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		796B8B532B01192D00554962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 796B8B402B01192A00554962 /* SwiftUI Basic YT Player */;
+			targetProxy = 796B8B522B01192D00554962 /* PBXContainerItemProxy */;
+		};
+		796B8B5D2B01192D00554962 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 796B8B402B01192A00554962 /* SwiftUI Basic YT Player */;
+			targetProxy = 796B8B5C2B01192D00554962 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		796B8B632B01192D00554962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		796B8B642B01192D00554962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		796B8B662B01192D00554962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Basic YT Player/Preview Content\"";
+				DEVELOPMENT_TEAM = 6JD548BN3B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BulldogVenturesInc.SwiftUI-Basic-YT-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		796B8B672B01192D00554962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI Basic YT Player/Preview Content\"";
+				DEVELOPMENT_TEAM = 6JD548BN3B;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BulldogVenturesInc.SwiftUI-Basic-YT-Player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		796B8B692B01192D00554962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JD548BN3B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BulldogVenturesInc.SwiftUI-Basic-YT-PlayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI Basic YT Player.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUI Basic YT Player";
+			};
+			name = Debug;
+		};
+		796B8B6A2B01192D00554962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JD548BN3B;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BulldogVenturesInc.SwiftUI-Basic-YT-PlayerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUI Basic YT Player.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SwiftUI Basic YT Player";
+			};
+			name = Release;
+		};
+		796B8B6C2B01192D00554962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JD548BN3B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BulldogVenturesInc.SwiftUI-Basic-YT-PlayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwiftUI Basic YT Player";
+			};
+			name = Debug;
+		};
+		796B8B6D2B01192D00554962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JD548BN3B;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.BulldogVenturesInc.SwiftUI-Basic-YT-PlayerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SwiftUI Basic YT Player";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		796B8B3C2B01192A00554962 /* Build configuration list for PBXProject "SwiftUI Basic YT Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796B8B632B01192D00554962 /* Debug */,
+				796B8B642B01192D00554962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		796B8B652B01192D00554962 /* Build configuration list for PBXNativeTarget "SwiftUI Basic YT Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796B8B662B01192D00554962 /* Debug */,
+				796B8B672B01192D00554962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		796B8B682B01192D00554962 /* Build configuration list for PBXNativeTarget "SwiftUI Basic YT PlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796B8B692B01192D00554962 /* Debug */,
+				796B8B6A2B01192D00554962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		796B8B6B2B01192D00554962 /* Build configuration list for PBXNativeTarget "SwiftUI Basic YT PlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796B8B6C2B01192D00554962 /* Debug */,
+				796B8B6D2B01192D00554962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 796B8B392B01192A00554962 /* Project object */;
+}
